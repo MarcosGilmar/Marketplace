@@ -1,9 +1,14 @@
+import { Redirect } from "expo-router";
 import { View } from "react-native";
 
 export default function App() {
-    return (
-        <View>
+    const userData = null
 
-        </View>
+    if(userData) {
+        return <Redirect href={"/(private)/home"}/>
+    }
+
+    return (
+        <Redirect href={"/register"}/>
     )
 }
