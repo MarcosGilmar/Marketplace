@@ -17,11 +17,11 @@ export function useRegisterViewModel() {
     } = useForm<RegisterFormData>({
         resolver: yupResolver(registerScheme),
         defaultValues: {
-            name: "teste123",
-            email: "teste1234@gmail.com",
-            password: "123123123",
-            confirmPassword: "123123123",
-            phone: "11111111111"
+            name: "",
+            email: "",
+            password: "",
+            confirmPassword: "",
+            phone: ""
         }
     })
 
@@ -36,9 +36,6 @@ export function useRegisterViewModel() {
             user: mutationResponse.user
         })
     })
-
-    console.log(user)
-
     return {
         control,
         errors,
