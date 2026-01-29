@@ -9,6 +9,6 @@ export default function App() {
     }
 
     return (
-        <Redirect href={"/register"}/>
+        <Redirect href={"/login"}/>
     )
 }

@@ -7,9 +7,3 @@ export interface RegisterHttpParams {
     phone: string,
     password: string
 }
-
-export interface RegisterHttpResponse {
-    user: UserInterface
-    token: string
-    refreshToken: string
-}
