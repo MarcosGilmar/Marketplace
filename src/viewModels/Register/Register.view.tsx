@@ -95,7 +95,7 @@ export function RegisterView(props: ReturnType<typeof useRegisterViewModel>) {
                 <View className="mt-16">
                     <Text className="text-base text-gray-400 mb-6">Já tem uma conta?</Text>
                     <AppButton 
-                        onPress={() => router.push("/login")}
+                        onPress={() => router.push("/(public)/login")}
                         rightIcon="arrow-forward"
                         variant="outlined"
                     >

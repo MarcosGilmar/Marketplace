@@ -48,7 +48,7 @@ export function LoginView(props: ReturnType<typeof useLoginViewModel>) {
                     <AppButton
                         variant="outlined"
                         rightIcon="arrow-forward"
-                        onPress={() => router.push("/register")}
+                        onPress={() => router.push("/(public)/register")}
                     >
                         Registro
                     </AppButton>
