@@ -2,7 +2,7 @@ import { Controller, useForm } from "react-hook-form"
 import { yupResolver } from "@hookform/resolvers/yup"
 
 import { LoginFormData, loginScheme } from "./login.scheme"
-import { useLoginMutation } from "../../shared/queries/auth/use-login-mutation"
+import { useLoginMutation } from "../../shared/queries/auth/use-login.mutation"
 import { useUserStore } from "../../shared/store/user-store"
 
 export function useLoginViewModel() {

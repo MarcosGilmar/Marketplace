@@ -14,7 +14,7 @@ export function AuthFormHeader({ title, subtitle }: AuthFormHeaderProps) {
                 source={require("../../../assets/images/Logo.png")}
             />
             <Text className="text-3xl font-bold mb-3 text-gray-500">{title}</Text>
-            <Text className="text-base text-gray-400">{subtitle}</Text>
+            <Text className="text-base text-gray-400 text-center">{subtitle}</Text>
         </View>
     )
 }
